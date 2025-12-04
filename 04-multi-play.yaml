@@ -5,10 +5,17 @@
   - name: print hello world from play 1 and task 1
     ansible.builtin.debug:
       msg: "Hello world from task 1 and play 1"
+  - name: print hello world
+    ansible.builtin.debug:
+      msg: "Hello world from task  and play 2"
+  
+- name: multi plays in yaml
+  hosts: local
+  connection: local
+  tasks:
+  - name: print hello world
     ansible.builtin.debug:
       msg: "Hello world from task 1 and play 2"
-  - name: print hello world 
-    ansible.builtin.debug:
-      msg: "Hello world from task 2 and play 1"
+  - name: print hello world
     ansible.builtin.debug:
       msg: "Hello world from task 2 and play 2"
