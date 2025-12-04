@@ -5,9 +5,9 @@
     DURATION: "10 HR"    
   tasks:
   - name: print course details
-  vars:
-    COURSE: "Devops with aws"
-    DURATION: "10 HR"  
+    vars:
+      COURSE: "Devops with aws"
+      DURATION: "10 HR"  
 
     ansible.builtin.debug:
       msg: " Course is {{ COURSE }}, and Duration is {{ DURATION }}"
