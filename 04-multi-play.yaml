@@ -7,7 +7,7 @@
       msg: "Hello world from task 1 and play 1"
   - name: print hello world
     ansible.builtin.debug:
-      msg: "Hello world from task  and play 2"
+      msg: "Hello world from task 2 and play 1"
   
 - name: multi plays in yaml
   hosts: local
