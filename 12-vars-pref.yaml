@@ -16,4 +16,4 @@
     ansible.builtin.debug:
       msg: "{{ GREETING }}"
 
-# CMD,TASK,FILE,PROMPT,PLAY
+# CMD,TASK,FILE,PROMPT,PLAY,ini
