@@ -2,8 +2,8 @@
   hosts: local
   connection: local
   vars:
-    GREETING: "Hello from vars"
-  vars_file:
+    GREETING: "Hello from PLAY"
+  vars_files:
   - course.yaml
   vars_propmt:
   - name: PROMPT 
