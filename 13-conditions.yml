@@ -16,7 +16,7 @@
 
   - name: install or uninstall packages
     ansible.builtin.package:
-    - name: "{{ item }}"
+      name: "{{ item }}"
       state: present
     loop:
     - nginx
